@@ -1,0 +1,23 @@
+Une info extra
+
+Structures (struct) :
+
+Les structures en C vous permettent de regrouper différents types de données sous un même nom.
+Elles sont utilisées pour créer des types de données complexes pouvant contenir plusieurs informations.
+Chaque membre d'une structure peut avoir un type de données différent.
+Vous pouvez accéder aux membres d'une structure en utilisant l'opérateur point (.)
+
+
+Unions (union) :
+
+Les unions sont similaires aux structures en ce qu'elles vous permettent de regrouper différents types de données sous un même nom.
+Cependant, dans une union, seul un membre peut contenir une valeur à un moment donné.
+Cela signifie que la mémoire allouée pour une union est seulement aussi grande que le plus grand membre.
+Les unions sont utiles lorsque vous devez stocker différents types de données dans la même position mémoire.
+
+Fonctions d'E/S de fichiers :
+
+En C, les opérations d'entrée/sortie de fichiers sont effectuées en utilisant des fonctions définies dans la bibliothèque stdio.h.
+Les opérations de base sur les fichiers comprennent l'ouverture, la lecture, l'écriture et la fermeture de fichiers.
+Les fonctions couramment utilisées incluent fopen(), fclose(), fread(), fwrite(), fprintf(), fscanf(), etc.
+Exemple (écriture dans un fichier) :

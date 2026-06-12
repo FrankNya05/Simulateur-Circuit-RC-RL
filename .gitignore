@@ -1,3 +1,15 @@
-*.o 
-main 
+# Compiled output
+*.o
+main
 test_unit
+
+# Binary data files
+*.bin
+
+# Runtime data files
+fileCompoSerie
+fileSourceSerie
+fileCompoParallele
+fileSourceParallele
+myfile
+source.txt
